@@ -10,7 +10,7 @@ body {
 }
 /*comienzo de header*/
 header {
-  background-color: rgb(250, 174, 174);
+  background-color: rgb(255, 170, 170);
 
 }
 #logo{
@@ -67,11 +67,11 @@ nav a[aria-current='page'] {
 
 .activo {
   /*border-bottom: #555 solid 3px;*/
-  box-shadow: 5px 4px darkgray;
+  box-shadow: 5px 4px rgb(253, 133, 191);
 }
 
 nav a:hover {
-  background-color: rgb(247, 167, 223);
+  background-color: rgb(255, 164, 228);
 
 
 }
