@@ -7,7 +7,6 @@ body {
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
-  margin: 5px;
 }
 /*comienzo de header*/
 header {
@@ -25,6 +24,19 @@ header {
   height: 150px;
 }
 /*fin header*/
+/*inicio de main*/
+section {
+  width: 900px;
+  padding: 20px;
+  background-color: #ebc7c7;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 h1{
   font-family:'Times New Roman', Times, serif;
   text-align: center;
@@ -38,6 +50,7 @@ font-family:'Times New Roman', Times, serif;
 p {
   font-family:'Times New Roman', Times, serif;
 }
+/*fin de main*/
 /*comienzo de nav*/
 nav {
   display: flex;
@@ -77,10 +90,7 @@ nav a:hover {
 
 }
 
-
-
 /*fin de nav*/
-
 /*comienzo de footer*/
 footer {
   background-color: black;
