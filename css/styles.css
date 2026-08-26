@@ -47,19 +47,11 @@ h1{
 h2 {
 font-family:'Times New Roman', Times, serif;
 }
-p {
+h4{
   font-family:'Times New Roman', Times, serif;
 }
-h4 {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-/* las fotos se acomodan una al lado de la otra automaticamente (50% cada una) */
-.foto {
-  min-height: 120px; /* espacio para la imagen*/
-  padding: 35px 10px 10px 10px ;
-  font-size: 11px;
-  border-bottom: 2px solid #000;
+p {
+  font-family:'Times New Roman', Times, serif;
 }
 
 /*fin de main*/
