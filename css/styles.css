@@ -1,31 +1,33 @@
 * {
   box-sizing: border-box; /*ajusta al tamaño de la caja*/
-}
-
-body {
+ }
+ 
+ 
+ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
-}
-/*comienzo de header*/
-header {
+ }
+ /*comienzo de header*/
+ header {
   background-color: rgb(255, 170, 170);
-
-}
-#logo{
+ 
+ 
+ }
+ #logo{
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-}
-#logodeelmundodelareposteria img {
+ }
+ #logodeelmundodelareposteria img {
   width: 175px;
   height: 150px;
-}
-/*fin header*/
-/*inicio de main*/
-section {
+ }
+ /*fin header*/
+ /*inicio de main*/
+ section {
   width: 900px;
   padding: 20px;
   background-color: #ebc7c7;
@@ -35,28 +37,38 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-}
-
-h1{
+ }
+ 
+ 
+ h1{
   font-family:'Times New Roman', Times, serif;
   text-align: center;
   width: 100%;
   text-decoration: underline;
   font-size: 500px;
-} 
-h2 {
-font-family:'Times New Roman', Times, serif;
-}
-h4{
+ }
+ h2 {
+ font-family:'Times New Roman', Times, serif;
+ }
+ p {
   font-family:'Times New Roman', Times, serif;
-}
-p {
-  font-family:'Times New Roman', Times, serif;
-}
-
-/*fin de main*/
-/*comienzo de nav*/
-nav {
+ }
+ h4 {
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .foto {
+  min-height: 120px;
+  padding: 35px 10px 10px 10px ;
+  font-size: 11px;
+  border-bottom: 2px solid #000;
+ }
+ 
+ 
+ 
+ 
+ /*fin de main*/
+ /*comienzo de nav*/
+ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -65,9 +77,10 @@ nav {
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
   background-color: #eee;
-}
-
-nav a {
+ }
+ 
+ 
+ nav a {
   display: inline-block;
   min-width: 9rem;
   padding: 0.5rem;
@@ -76,27 +89,33 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: #555;
-}
-
-nav a[aria-current='page'] {
+ }
+ 
+ 
+ nav a[aria-current='page'] {
   color: #000;
   background-color: #d4d4d4;
-}
-
-.activo {
+ }
+ 
+ 
+ .activo {
   /*border-bottom: #555 solid 3px;*/
   box-shadow: 5px 4px rgb(253, 133, 191);
-}
-
-nav a:hover {
+ }
+ 
+ 
+ nav a:hover {
   background-color: rgb(255, 164, 228);
-
-
-}
-
-/*fin de nav*/
-/*comienzo de footer*/
-footer {
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ /*fin de nav*/
+ /*comienzo de footer*/
+ footer {
   background-color: black;
   color: white;
   font-size: smaller;
@@ -105,35 +124,45 @@ footer {
   /*align-items: center;
   justify-content: center;*/
   justify-content: space-evenly;
-}
-#colegio {
+ }
+ #colegio {
   width: 33%;
   background-color: rgb(241, 104, 189);
   padding: 5px;
-}
-
-#alumno {
+ }
+ 
+ 
+ #alumno {
   width: 33%;
   background-color: rgb(255, 154, 225);
   color: #555;
   padding: 5px;
-}
-#sociales {
+ }
+ #sociales {
   width: 33%;
   background-color: rgb(236, 191, 223);
   padding: 5px;
-}
-#sociales img {
+ }
+ #sociales img {
   width: 50px;
-}
-/*fin de footer*/
-
-main {
+ }
+ /*fin de footer*/
+ 
+ 
+ main {
   padding: 1rem;
-}
-
-h1 {
+ }
+ 
+ 
+ h1 {
   font-weight: bold;
   font-size: 1.5rem;
-}
-
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
