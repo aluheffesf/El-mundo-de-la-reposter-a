@@ -135,11 +135,32 @@ h3 {
 
 /*Libros*/
 #formulario {
-  width: 500px ;
-  height: 800px ;
+  width: 450px ;
+  height: 500px ;
   float: left;
-  background-color: aqua;
+  background-color: rgb(244, 158, 208);
   padding: 25px;
+}
+
+#formulario input {
+  width: 100%;
+}
+
+#formulario label {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#formulario h2 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #555;
+  font-size: 40px;
+}
+
+#formulario h3 {
+  text-align: center;
+  text-shadow: 1px 1px 2px #555;
+  font-size: 20px;
 }
 
 /*fin de main*/
