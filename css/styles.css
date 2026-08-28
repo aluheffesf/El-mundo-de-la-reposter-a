@@ -83,7 +83,7 @@ th {
   margin: 0 auto;
 }
 
-tr :hover {
+tr:hover {
   background-color: #555;
 }
 
