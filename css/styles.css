@@ -75,6 +75,8 @@ h4 {
 
 table {
   border-collapse: collapse;
+  width: 90%;
+  margin: 20px auto;
 }
 
 table,
@@ -82,16 +84,19 @@ tr,
 td,
 th {
   border: solid rgb(234, 160, 160) 2px;
-  width: 400px;
-  margin: 0 auto;
+padding: 10px;
 }
 
 tr:hover {
   background-color: #555;
 }
 
+/*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
 td img {
-  width: 200px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 h3 {
