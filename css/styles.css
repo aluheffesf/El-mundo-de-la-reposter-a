@@ -87,6 +87,12 @@ th {
 padding: 10px;
 }
 
+th, td {
+padding: 12px;
+vertical-align: top;
+text-align: text;
+}
+
 tr:hover {
   background-color: #555;
 }
@@ -94,6 +100,7 @@ tr:hover {
 /*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
 td img {
   width: 100%;
+  margin: 0 auto;
 }
 
 td iframe {
