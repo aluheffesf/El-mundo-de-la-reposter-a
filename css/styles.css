@@ -93,6 +93,11 @@ vertical-align: top;
 text-align: text;
 }
 
+th {
+  background-color: pink;
+  text-align: center;
+}
+
 tr:hover {
   background-color: #555;
 }
