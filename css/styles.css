@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box; /*ajusta al tamaño de la caja*/
+  box-sizing: border-box;
+  /*ajusta al tamaño de la caja*/
 }
 
 body {
@@ -8,21 +9,25 @@ body {
   color: black;
   background-color: white;
 }
+
 /*comienzo de header*/
 header {
   background-color: rgb(255, 170, 170);
 
 }
-#logo{
+
+#logo {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
 }
+
 #logodeelmundodelareposteria img {
   width: 175px;
   height: 150px;
 }
+
 /*fin header*/
 /*inicio de main*/
 section {
@@ -37,25 +42,29 @@ section {
   justify-content: center;
 }
 
-h1{
-  font-family:'Times New Roman', Times, serif;
+h1 {
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
   width: 100%;
   text-decoration: underline;
   font-size: 500px;
-} 
+}
+
 h2 {
-font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 p {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 h4 {
   font-family: 'Times New Roman', Times, serif;
 }
+
 .foto {
-  min-height: 120px; 
-  padding: 35px 10px 10px 10px ;
+  min-height: 120px;
+  padding: 35px 10px 10px 10px;
   font-size: 11px;
   border-bottom: 2px solid #000;
 }
@@ -80,9 +89,13 @@ tr :hover {
 }
 
 td img {
-  width: 200px;
+  width: 200pxs;
 }
 
+h3 {
+  width: 150px;
+  margin: 0 auto;
+}
 
 /*fin de main*/
 /*comienzo de nav*/
@@ -130,12 +143,14 @@ footer {
   background-color: black;
   color: white;
   font-size: smaller;
-  display: flex; /*muestra el completo ajustes*/
+  display: flex;
+  /*muestra el completo ajustes*/
   flex-wrap: wrap;
   /*align-items: center;
   justify-content: center;*/
   justify-content: space-evenly;
 }
+
 #colegio {
   width: 33%;
   background-color: rgb(241, 104, 189);
@@ -148,14 +163,17 @@ footer {
   color: #555;
   padding: 5px;
 }
+
 #sociales {
   width: 33%;
   background-color: rgb(236, 191, 223);
   padding: 5px;
 }
+
 #sociales img {
   width: 50px;
 }
+
 /*fin de footer*/
 
 main {
@@ -166,4 +184,3 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
-
