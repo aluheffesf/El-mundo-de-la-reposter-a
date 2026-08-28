@@ -132,6 +132,16 @@ h3 {
   text-align: center;
   margin: 0 auto;
 }
+
+/*Libros*/
+#formulario {
+  width: 500px ;
+  height: 800px ;
+  float: left;
+  background-color: aqua;
+  padding: 25px;
+}
+
 /*fin de main*/
 /*comienzo de nav*/
 nav {
