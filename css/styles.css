@@ -163,6 +163,25 @@ h3 {
   font-size: 20px;
 }
 
+/*pagina cookies*/
+.campeones {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+}
+
+.foto {
+  min-height: 120px; 
+  padding: 35px 10px 10px 10px ;
+  font-size: 11px;
+  border-bottom: 2px solid #000;
+}
+
+/*datos de cookies*/
+.foto img{
+  width: 100%;
+  }
+
 /*fin de main*/
 /*comienzo de nav*/
 nav {
