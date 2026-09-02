@@ -1,42 +1,36 @@
 * {
   box-sizing: border-box;
   /*ajusta al tamaño de la caja*/
- }
- 
- 
- body {
+}
+
+body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
- }
- 
- 
- /*comienzo de header*/
- header {
+}
+
+/*comienzo de header*/
+header {
   background-color: rgb(255, 170, 170);
- 
- 
- }
- 
- 
- #logo {
+
+}
+
+#logo {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
- }
- 
- 
- #logodeelmundodelareposteria img {
+}
+
+#logodeelmundodelareposteria img {
   width: 175px;
   height: 150px;
- }
- 
- 
- /*fin header*/
- /*inicio de main*/
- section {
+}
+
+/*fin header*/
+/*inicio de main*/
+section {
   padding: 20px;
   background-color: #f3cece;
   margin: 0 auto;
@@ -45,155 +39,133 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- }
- 
- 
- h1 {
+}
+
+h1 {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   width: 100%;
   text-decoration: underline;
   font-size: 500px;
- }
- 
- 
- h2 {
+}
+
+h2 {
   font-family: 'Times New Roman', Times, serif;
- }
- 
- 
- p {
+}
+
+p {
   font-family: 'Times New Roman', Times, serif;
- }
- 
- 
- h4 {
+}
+
+h4 {
   font-family: 'Times New Roman', Times, serif;
- }
- 
- 
- .foto {
+}
+
+.foto {
   min-height: 120px;
   padding: 35px 10px 10px 10px;
   font-size: 11px;
   border-bottom: 2px solid #000;
- }
- 
- 
- /*pagina faciles*/
- .faciles h2 {
+}
+
+/*pagina faciles*/
+.faciles h2 {
   text-align: center;
- }
- 
- 
- main {
+}
+
+main {
   padding: 1rem;
   margin: 0 auto;
- }
- 
- 
- table {
+}
+
+table {
   border-collapse: collapse;
   width: 50%;
   margin: 20px auto;
- }
- 
- 
- table,
- tr,
- td,
- th {
+}
+
+table,
+tr,
+td,
+th {
   border: solid rgb(234, 160, 160) 2px;
- padding: 10px;
- }
- 
- 
- th, td {
- padding: 12px;
- vertical-align: top;
- text-align: center;
- }
- 
- 
- th {
+padding: 10px;
+}
+
+th, td {
+padding: 12px;
+vertical-align: top;
+text-align: center;
+}
+
+th {
   background-color: pink;
   text-align: center;
- }
- 
- 
- tr:hover {
+}
+
+tr:hover {
   background-color: rgba(253, 227, 231, 0.734);
- }
- 
- 
- /*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
- td img {
+}
+
+/*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
+td img {
   width: 100%;
   margin: 0 auto;
- }
- 
- 
- td iframe {
+}
+
+td iframe {
   width: 100%;
   height: auto; /*permite que el alto crezca prporcionalmente*/
   border: none;
- }
- 
- 
- h3 {
+}
+
+h3 {
   width: 150px;
   margin: 0 auto;
- }
- 
- 
- .videos {
+}
+
+.videos {
   background-color: #555;
   width: 630px;
   height: 320px;
   box-shadow: #555 5px 2px;
   text-align: center;
   margin: 0 auto;
- }
- 
- 
- /*Libros*/
- #formulario {
+}
+
+/*Libros*/
+#formulario {
   width: 450px ;
   height: 500px ;
   float: left;
   background-color: rgb(231, 183, 211);
   padding: 25px;
- }
- 
- 
- #formulario input {
+}
+
+#formulario input {
   width: 100%;
- }
- 
- 
- #formulario label {
+}
+
+#formulario label {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
- }
- 
- 
- #formulario h2 {
+}
+
+#formulario h2 {
   text-align: center;
   text-shadow: 2px 2px 4px #555;
   font-size: 40px;
- }
- 
- 
- #formulario h3 {
+}
+
+#formulario h3 {
   text-align: center;
   text-shadow: 1px 1px 2px #555;
   font-size: 20px;
- }
- 
- 
- /*fin de main*/
- /*comienzo de nav*/
- nav {
+}
+
+/*fin de main*/
+/*comienzo de nav*/
+nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -202,10 +174,9 @@
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
   background-color: #eee;
- }
- 
- 
- nav a {
+}
+
+nav a {
   display: inline-block;
   min-width: 9rem;
   padding: 0.5rem;
@@ -214,46 +185,38 @@
   text-align: center;
   text-decoration: none;
   color: #555;
- }
- 
- 
- nav a[aria-current='page'] {
+}
+
+nav a[aria-current='page'] {
   color: #000;
   background-color: #d4d4d4;
- }
- 
- 
- .activo {
+}
+
+.activo {
   /*border-bottom: #555 solid 3px;*/
   box-shadow: 5px 4px rgb(253, 133, 191);
- }
- 
- 
- nav a:hover {
+}
+
+nav a:hover {
   background-color: rgb(255, 164, 228);
- 
- 
- 
- 
- }
- 
- 
- /*fin de nav*/
- 
- 
- /*presentacion*/
- #presentacion {
+
+
+}
+
+/*fin de nav*/
+
+/*presentacion*/
+#presentacion {
   height: 600px;
- }
- iframe {
+}
+iframe {
   width: 100%;
   height: 100%;
   border-radius: 8px;
- }
- 
- 
- /*comienzo de footer*/
- footer {
+}
+
+/*comienzo de footer*/
+footer {
   background-color: black;
   color: white;
   font-size: smaller;
@@ -263,49 +226,38 @@
   /*align-items: center;
   justify-content: center;*/
   justify-content: space-evenly;
- }
- 
- 
- #colegio {
+}
+
+#colegio {
   width: 33%;
   background-color: rgb(241, 104, 189);
   padding: 5px;
- }
- 
- 
- #alumno {
+}
+
+#alumno {
   width: 33%;
   background-color: rgb(255, 154, 225);
   color: #555;
   padding: 5px;
- }
- 
- 
- #sociales {
+}
+
+#sociales {
   width: 33%;
   background-color: rgb(236, 191, 223);
   padding: 5px;
- }
- 
- 
- #sociales img {
+}
+
+#sociales img {
   width: 50px;
- }
- 
- 
- /*fin de footer*/
- 
- 
- main {
+}
+
+/*fin de footer*/
+
+main {
   padding: 1rem;
- }
- 
- 
- h1 {
+}
+
+h1 {
   font-weight: bold;
   font-size: 1.5rem;
- }
- 
- 
- 
- 
+}
