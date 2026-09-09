@@ -163,8 +163,7 @@ h3 {
   font-size: 20px;
 }
 
-/*campeones*/
-
+/*inicio de cookies*/
 /* contenedor principal: divide el disñeo en dos columnas*/
 
 .cookies {
@@ -214,11 +213,68 @@ h3 {
 
 /*datos de cookies*/
 .cookie .foto img{
-width: 100%;
+width: 75%;
 }
 .cookie .video img{
-  width: 100%;
+  width: 75%;
   }
+ 
+  /*inicio de tortasyc*/ 
+/* contenedor principal: divide el disñeo en dos columnas*/
+
+.tortas {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* 25% para cookies, 75% para cookie */
+  border: 2px solid #000;
+  width: 100%;
+}
+
+/* columna izquierda: cookies ocupara todo el alto disponible*/
+.tortas {
+  border-right: 2px solid #000;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/*columna derecha: se convierte en otro grild para organizar el contenido interno*/
+.tortas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*divido en 2 columnas para la foto y el video*/
+}
+
+/* el titulo de cookie ocupa las dos columnas*/
+.tortas {
+  grid-column: span 2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 2px solid #000;
+}
+
+/* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
+.foto {
+  min-height: 120px; /* espacio para la imagen*/
+  padding: 35px 10px 10px 10px ;
+  font-size: 11px;
+  border-bottom: 2px solid #000;
+}
+
+/* borde vertical divisor solo en la primera foto */
+.foto:nth-of-type(odd) {
+  border-right: 2px solid #000;
+}
+
+/*datos de tortas*/
+.tortas .foto img{
+width: 50%;
+}
+.tortas .video video{
+  width: 50%;
+  }
+
 
 /*fin de main*/
 /*comienzo de nav*/
