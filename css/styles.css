@@ -236,17 +236,11 @@ width: 75%;
   padding: 15px 10px;
   font-weight: bold;
   font-size: 14px;
-}
-
 /*columna derecha: se convierte en otro grild para organizar el contenido interno*/
-.tortas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-}
-
 /* el titulo de cookie ocupa las dos columnas*/
-.tortas {
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
