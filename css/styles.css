@@ -207,10 +207,10 @@ h3 {
 
 /*datos de cookies*/
 .cookie .foto img{
-width: 50%;
+width: 40%;
 }
 .cookie .video img{
-  width: 50%;
+  width: 40%;
   }
  
   /*inicio de tortasyc*/ 
@@ -219,7 +219,6 @@ width: 50%;
 .tortas {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  /* 25% para cookies, 75% para cookie */
   border: 2px solid #000;
   width: 100%;
 }
@@ -234,7 +233,7 @@ width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-/* el titulo de cookie ocupa las dos columnas*/
+/* el titulo de tortas ocupa las dos columnas*/
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
@@ -263,6 +262,9 @@ width: 50%;
   width: 50%;
   }
 
+
+
+  
 
 /*fin de main*/
 /*comienzo de nav*/
