@@ -180,17 +180,11 @@ h3 {
   padding: 15px 10px;
   font-weight: bold;
   font-size: 14px;
-}
-
 /*columna derecha: se convierte en otro grild para organizar el contenido interno*/
-.cookie {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-}
-
 /* el titulo de cookie ocupa las dos columnas*/
-.cookie {
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
@@ -213,10 +207,10 @@ h3 {
 
 /*datos de cookies*/
 .cookie .foto img{
-width: 75%;
+width: 50%;
 }
 .cookie .video img{
-  width: 75%;
+  width: 50%;
   }
  
   /*inicio de tortasyc*/ 
