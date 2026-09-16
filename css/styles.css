@@ -61,6 +61,14 @@ h4 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+h5 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .foto {
   min-height: 120px;
   padding: 35px 10px 10px 10px;
@@ -169,7 +177,6 @@ h3 {
 .cookies {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  /* 25% para cookies, 75% para cookie */
   border: 2px solid #000;
   width: 100%;
 }
@@ -184,7 +191,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-/* el titulo de cookie ocupa las dos columnas*/
+/* el titulo "cookie de chocolate" y "cookie de vainilla" ocupa las dos columnas*/
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
@@ -223,7 +230,7 @@ width: 40%;
   width: 100%;
 }
 
-/* columna izquierda: cookies ocupara todo el alto disponible*/
+/* columna izquierda: tortas ocupara todo el alto disponible*/
 .tortas {
   border-right: 2px solid #000;
   padding: 15px 10px;
@@ -233,7 +240,7 @@ width: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-/* el titulo de tortas ocupa las dos columnas*/
+/* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
@@ -264,7 +271,57 @@ width: 50%;
 
 
 
-  
+/* contenedor principal: divide el disñeo en dos columnas*/
+
+.cupcakes {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border: 2px solid #000;
+  width: 100%;
+}
+
+/* columna izquierda: cupcakes ocupara todo el alto disponible*/
+.cupcakes {
+  border-right: 2px solid #000;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 14px;
+/*columna derecha: se convierte en otro grild para organizar el contenido interno*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*divido en 2 columnas para la foto y el video*/
+/* el titulo "cupcake" ocupa las dos columnas*/
+  grid-column: span 2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 2px solid #000;
+}
+
+/* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
+.foto {
+  min-height: 120px; /* espacio para la imagen*/
+  padding: 35px 10px 10px 10px ;
+  font-size: 11px;
+  border-bottom: 2px solid #000;
+}
+
+/* borde vertical divisor solo en la primera foto */
+.foto:nth-of-type(odd) {
+  border-right: 2px solid #000;
+}
+
+/*datos de cupcakes*/
+.cupcakes .foto img{
+width: 50%;
+}
+.cupcakes .video video{
+  width: 50%;
+  }
+
+.cookies .tortas .cupcakes {
+  margin-bottom: 5px;
+}
 
 /*fin de main*/
 /*comienzo de nav*/
