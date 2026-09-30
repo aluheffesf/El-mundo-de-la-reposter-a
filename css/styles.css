@@ -30,6 +30,8 @@ header {
 
 /*fin header*/
 /*inicio de main*/
+
+/*inicio de index*/
 section {
   padding: 20px;
   background-color: #f3cece;
@@ -74,6 +76,17 @@ h3 {
   padding: 35px 10px 10px 10px;
   font-size: 11px;
   border-bottom: 2px solid #000;
+}
+
+.video_local {
+  background-color: #555;
+  width: 630px;
+  height: 320px;
+  border: #000 solid 7px;
+  box-shadow: #555 5px 2px;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /*pagina faciles*/
