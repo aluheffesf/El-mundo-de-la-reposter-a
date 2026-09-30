@@ -79,11 +79,11 @@ h3 {
 }
 
 .video_local {
-  background-color: #555;
+  background-color: #f1aeae;
   width: 630px;
   height: 320px;
-  border: #000 solid 7px;
-  box-shadow: #555 5px 2px;
+  border: #f16666 solid 7px;
+  box-shadow: #e0d3d3 5px 2px;
   text-align: center;
   margin: 0 auto;
   box-sizing: border-box;
