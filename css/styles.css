@@ -91,6 +91,17 @@ h3 {
   float: right;
 }
 
+.introducciones{
+
+  display: flex;
+  justify-content: space-around;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
+  gap: 20px;                 /* espacio entre elementos */
+}
+.introduccion{
+  width: 40%;
+}
+
 /*pagina faciles*/
 .faciles h2 {
   text-align: center;
@@ -155,6 +166,7 @@ h3 {
   text-align: center;
   margin: 0 auto;
 }
+
 
 /*Libros*/
 #formulario {
@@ -355,24 +367,6 @@ table {
   margin: 20px auto;
 }
 
-table,
-tr,
-td,
-th {
-  border: solid rgb(234, 160, 160) 2px;
-padding: 10px;
-}
-
-th, td {
-padding: 12px;
-vertical-align: top;
-text-align: center;
-}
-
-th {
-  background-color: pink;
-  text-align: center;
-}
 
 tr:hover {
   background-color: rgba(253, 227, 231, 0.734);
@@ -380,15 +374,20 @@ tr:hover {
 
 /*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
 td img {
-  width: 100%;
+  width: 200px;
   margin: 0 auto;
 }
 
 td iframe {
-  width: 100%;
+  width: 200px;
   height: auto; /*permite que el alto crezca prporcionalmente*/
   border: none;
 }
+td ul li {
+  width: 200px;
+text-align: left;
+}
+
 
 h3 {
   width: 150px;
@@ -459,6 +458,7 @@ iframe {
 
 /*comienzo de footer*/
 footer {
+  clear: both;
   background-color: black;
   color: white;
   font-size: smaller;
