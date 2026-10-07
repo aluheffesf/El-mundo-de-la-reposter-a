@@ -207,25 +207,16 @@ h3 {
   border: 2px solid #000;
   width: 100%;
 }
+.cookies{
 
-/* columna izquierda: cookies ocupara todo el alto disponible*/
-.cookies {
-  border-right: 2px solid #000;
-  padding: 15px 10px;
-  font-weight: bold;
-  font-size: 14px;
-/*columna derecha: se convierte en otro grild para organizar el contenido interno*/
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /*divido en 2 columnas para la foto y el video*/
-/* el titulo "cookie de chocolate" y "cookie de vainilla" ocupa las dos columnas*/
-  grid-column: span 2;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 13px;
-  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: space-around;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
+  gap: 20px;                 /* espacio entre elementos */
 }
-
+.cookie{
+  width: 40%;
+}
 /* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
 .foto {
   min-height: 120px; /* espacio para la imagen*/
@@ -243,7 +234,7 @@ h3 {
 .cookie .foto img{
 width: 40%;
 }
-.cookie .video img{
+.cookie .section img{
   width: 40%;
   }
  
