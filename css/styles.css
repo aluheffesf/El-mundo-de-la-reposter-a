@@ -101,36 +101,7 @@ h3 {
 .introduccion{
   width: 40%;
 }
-/*pagina que es*/
 
-#presentacion {
-  width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
-}
-
-.carrusel {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.carrusel img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  opacity: 0;
-  transition: opacity 1s ease;
-}
-
-.carrusel img.activa {
-  opacity: 1;
-}
-/*pagina que es*/
 /*pagina faciles*/
 .faciles h2 {
   text-align: center;
@@ -231,20 +202,11 @@ h3 {
 /* contenedor principal: divide el disñeo en dos columnas*/
 
 .cookies {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
   border: 2px solid #000;
   width: 100%;
 }
-.cookies{
-
-  display: flex;
-  justify-content: space-around;   /* centra horizontalmente */
-  align-items: center;       /* centra verticalmente */
-  gap: 20px;                 /* espacio entre elementos */
-}
-.cookie{
-  width: 40%;
+.cookie { 
+  width: 40%; 
 }
 /* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
 .foto {
@@ -261,9 +223,9 @@ h3 {
 
 /*datos de cookies*/
 .cookie .foto img{
-width: 40%;
+width: 60%;
 }
-.cookie .section img{
+.cookie .video video{
   width: 40%;
   }
  
@@ -407,7 +369,6 @@ td ul li {
   width: 200px;
 text-align: left;
 }
-
 
 h3 {
   width: 150px;
