@@ -401,8 +401,8 @@ width: 50%;
 .cupcakes .foto img{
 width: 50%;
 }
-.cupcakes .video video{
-  width: 50%;
+.cupcakes .section iframe{
+  width: 10%;
   }
 
 .cookies .tortas .cupcakes {
