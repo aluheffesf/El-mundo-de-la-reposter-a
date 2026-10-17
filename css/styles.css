@@ -312,7 +312,8 @@ h3 {
 
 /*datos de cookies*/
 .cookie .foto img{
-width: 50%;
+width: 80%;
+height: 420px;
 }
 .cookie section iframe{
   width: 100%;
