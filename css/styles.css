@@ -398,14 +398,15 @@ width: 50%;
 }
 
 /*datos de cupcakes*/
-.cupcakes .foto img{
+.Cupcakes .foto img{
 width: 50%;
 }
-.cupcakes .section iframe{
-  width: 50%;
+.Cupcakes .section iframe{
+  width: 100%;
+  height: 300px;
   }
 
-.cookies .tortas .cupcakes {
+.cookies .tortas .Cupcakes {
   margin-bottom: 5px;
 }
 
