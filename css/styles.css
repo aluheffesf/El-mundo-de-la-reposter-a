@@ -524,11 +524,12 @@ nav a:hover {
   height: 600px;
 }
 iframe {
-  width: 40%;
-  height: 100px;
-  border-radius: 8px;
   display: block;
+  width: 40%;
+  height: 350px;
+  border-radius: 8px;
   margin: 0 auto;
+  border: none;
 }
 
 /*comienzo de footer*/
