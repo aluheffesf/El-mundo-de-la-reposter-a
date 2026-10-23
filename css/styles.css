@@ -179,6 +179,73 @@ h3 {
 .carrusel img.activa {
   opacity: 1;
 }
+
+/*inicio de postres*/
+.postres h2 {
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+
+table,
+tr,
+td,
+th {
+  border: solid rgb(234, 160, 160) 2px;
+  padding: 10px;
+}
+
+th, td {
+  padding: 12px;
+  vertical-align: top;
+  text-align: center;
+}
+
+th {
+  background-color: pink;
+  text-align: center;
+}
+
+tr:hover {
+background-color: rgba(253, 227, 231, 0.734);
+}
+
+/*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
+td img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+td iframe { 
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+h3 {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.videos {
+  background-color: #555;
+  width: 630px;
+  height: 320px;
+  box-shadow: #555 5px 2px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
 /*pagina faciles*/
 .faciles h2 {
   text-align: center;
@@ -226,7 +293,7 @@ td img {
 
 td iframe {
   width: 100%;
-  height: auto; /*permite que el alto crezca prporcionalmente*/
+  height: auto; 
   border: none;
 }
 
@@ -245,7 +312,7 @@ h3 {
 }
 
 
-/*Libros*/
+/* pagina Libros*/
 #formulario {
   width: 450px ;
   height: 500px ;
@@ -376,60 +443,6 @@ height: 420px;
 width: 50%;
 height: 450px;
 }
-
-
-/*inicio de postres*/
-
-.postres h2 {
-  text-align: center;
-}
-
-main {
-  padding: 1rem;
-  margin: 0 auto;
-}
-
-table {
-  border-collapse: collapse;
-  width: 50%;
-  margin: 20px auto;
-}
-
-
-tr:hover {
-  background-color: rgba(253, 227, 231, 0.734);
-}
-
-/*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
-td img {
-  width: 200px;
-  margin: 0 auto;
-}
-
-td iframe {
-  width: 200px;
-  height: auto; /*permite que el alto crezca prporcionalmente*/
-  border: none;
-}
-td ul li {
-  width: 200px;
-text-align: left;
-}
-
-h3 {
-  width: 150px;
-  margin: 0 auto;
-}
-
-.videos {
-  background-color: #555;
-  width: 630px;
-  height: 320px;
-  box-shadow: #555 5px 2px;
-  text-align: center;
-  margin: 0 auto;
-}
-
 
 /*fin de main*/
 /*comienzo de nav*/
