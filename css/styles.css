@@ -12,8 +12,8 @@ body {
 
 /*comienzo de header*/
 header {
-  background-color: rgb(255, 170, 170);
-  color: #f1aeae;
+  background-color: #F4C2C2;
+  color: #FFB7D5;
 }
 
 #logo {
@@ -476,7 +476,7 @@ nav a {
   border: solid 1px #D8A7B1;
   text-align: center;
   text-decoration: none;
-  color: #E75480;
+  color: #9E3B63;
 }
 
 nav a[aria-current='page'] {
@@ -486,7 +486,7 @@ nav a[aria-current='page'] {
 
 .activo {
   /*border-bottom: #555 solid 3px;*/
-  box-shadow: 5px 4px rgb(253, 133, 191);
+  box-shadow: 5px 4px #FF91AF;
 }
 
 nav a:hover {
