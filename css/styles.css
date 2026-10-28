@@ -423,9 +423,6 @@ h3 {
   /*divido en 2 columnas para la foto y el video*/
   /* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
   grid-column: span 2;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 13px;
   border-bottom: 2px solid #000;
 }
 
