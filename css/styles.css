@@ -13,7 +13,7 @@ body {
 /*comienzo de header*/
 header {
   background-color: rgb(255, 170, 170);
-color: #f1aeae;
+  color: #f1aeae;
 }
 
 #logo {
@@ -91,40 +91,20 @@ h3 {
   float: right;
 }
 
-.introducciones{
+.introducciones {
 
   display: flex;
-  justify-content: space-around;   /* centra horizontalmente */
-  align-items: center;       /* centra verticalmente */
-  gap: 20px;                 /* espacio entre elementos */
+  justify-content: space-around;
+  /* centra horizontalmente */
+  align-items: center;
+  /* centra verticalmente */
+  gap: 20px;
+  /* espacio entre elementos */
 }
-.introduccion{
+
+.introduccion {
   width: 40%;
 }
-/*pagina que es*/
-#presentacion {
-  width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
-}
-
-.carrusel {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.carrusel img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  opacity: 0;
-  transition: opacity 1s ease;
-}
 
 /*pagina que es*/
 #presentacion {
@@ -151,12 +131,37 @@ h3 {
   transition: opacity 1s ease;
 }
 
+/*pagina que es*/
 #presentacion {
   width: 100%;
   max-width: 900px;
   margin: 20px auto;
 }
 
+.carrusel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carrusel img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#presentacion {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+ 
 .carrusel {
   position: relative;
   width: 100%;
@@ -196,7 +201,7 @@ table {
   margin: 20px auto;
 }
 
-table, 
+table,
 tr,
 td,
 th {
@@ -204,7 +209,8 @@ th {
   padding: 10px;
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   vertical-align: top;
   text-align: center;
@@ -215,9 +221,9 @@ th {
   text-align: center;
   width: 10%;
 }
- 
+
 tr:hover {
-background-color: rgba(253, 227, 231, 0.734);
+  background-color: rgba(253, 227, 231, 0.734);
 }
 
 /*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
@@ -226,7 +232,7 @@ td img {
   margin: 0 auto;
 }
 
-td iframe { 
+td iframe {
   width: 100%;
   height: 394px;
   border: none;
@@ -259,7 +265,7 @@ main {
 
 table {
   border-collapse: collapse;
-  width: 50%;
+  width: 80%;
   margin: 20px auto;
 }
 
@@ -268,13 +274,14 @@ tr,
 td,
 th {
   border: solid rgb(234, 160, 160) 2px;
-padding: 10px;
+  padding: 10px;
 }
 
-th, td {
-padding: 12px;
-vertical-align: top;
-text-align: center;
+th,
+td {
+  padding: 12px;
+  vertical-align: top;
+  text-align: center;
 }
 
 th {
@@ -294,7 +301,7 @@ td img {
 
 td iframe {
   width: 100%;
-  height: auto; 
+  height: auto;
   border: none;
 }
 
@@ -315,8 +322,8 @@ h3 {
 
 /* pagina Libros*/
 #formulario {
-  width: 450px ;
-  height: 500px ;
+  width: 450px;
+  height: 500px;
   float: left;
   background-color: rgb(231, 183, 211);
   padding: 25px;
@@ -352,11 +359,11 @@ h3 {
   padding: 15px 10px;
   font-weight: bold;
   font-size: 14px;
-/*columna derecha: se convierte en otro grild para organizar el contenido interno*/
+  /*columna derecha: se convierte en otro grild para organizar el contenido interno*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-/* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
+  /* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
@@ -367,8 +374,9 @@ h3 {
 
 /* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
 .foto {
-  min-height: 120px; /* espacio para la imagen*/
-  padding: 35px 10px 10px 10px ;
+  min-height: 120px;
+  /* espacio para la imagen*/
+  padding: 35px 10px 10px 10px;
   font-size: 11px;
   border-bottom: 2px solid #000;
 }
@@ -379,20 +387,21 @@ h3 {
 }
 
 /*datos de cookies*/
-.cookie .foto img{
-width: 80%;
-height: 420px;
+.cookie .foto img {
+  width: 80%;
+  height: 420px;
 }
-.cookie section iframe{
+
+.cookie section iframe {
   width: 100%;
   height: 400px;
-  }
+}
 
-  .cookies {
-    margin-bottom: 5px;
-  }
- 
-  /*inicio de tortasyc*/ 
+.cookies {
+  margin-bottom: 5px;
+}
+
+/*inicio de tortasyc*/
 /* contenedor principal: divide el disñeo en dos columnas*/
 
 .tortas {
@@ -408,11 +417,11 @@ height: 420px;
   padding: 15px 10px;
   font-weight: bold;
   font-size: 14px;
-/*columna derecha: se convierte en otro grild para organizar el contenido interno*/
+  /*columna derecha: se convierte en otro grild para organizar el contenido interno*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-/* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
+  /* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
@@ -422,8 +431,9 @@ height: 420px;
 
 /* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
 .foto {
-  min-height: 120px; /* espacio para la imagen*/
-  padding: 35px 10px 10px 10px ;
+  min-height: 120px;
+  /* espacio para la imagen*/
+  padding: 35px 10px 10px 10px;
   font-size: 11px;
   border-bottom: 2px solid #000;
 }
@@ -435,14 +445,14 @@ height: 420px;
 
 /*datos de tortas*/
 
-.tortas section iframe{
+.tortas section iframe {
   width: 100%;
   height: 450px;
-  }
+}
 
-.tortas .img{
-width: 50%;
-height: 450px;
+.tortas .img {
+  width: 50%;
+  height: 450px;
 }
 
 /*fin de main*/
@@ -463,15 +473,15 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px #e4a7a7;
+  border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #d34141;
+  color: #555;
 }
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #d1aaaa;
+  background-color: #d4d4d4;
 }
 
 .activo {
@@ -491,6 +501,7 @@ nav a:hover {
 #presentacion {
   height: 600px;
 }
+
 iframe {
   display: block;
   width: 40%;
