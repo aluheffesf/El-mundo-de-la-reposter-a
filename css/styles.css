@@ -12,8 +12,8 @@ body {
 
 /*comienzo de header*/
 header {
-  background-color: #F4C2C2;
-  color: #FFB7D5;
+  background-color: rgb(255, 170, 170);
+color: #f1aeae;
 }
 
 #logo {
@@ -91,21 +91,16 @@ h3 {
   float: right;
 }
 
-.introducciones {
+.introducciones{
 
   display: flex;
-  justify-content: space-around;
-  /* centra horizontalmente */
-  align-items: center;
-  /* centra verticalmente */
-  gap: 20px;
-  /* espacio entre elementos */
+  justify-content: space-around;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
+  gap: 20px;                 /* espacio entre elementos */
 }
-
-.introduccion {
+.introduccion{
   width: 40%;
 }
-
 /*pagina que es*/
 #presentacion {
   width: 100%;
@@ -161,7 +156,7 @@ h3 {
   max-width: 900px;
   margin: 20px auto;
 }
- 
+
 .carrusel {
   position: relative;
   width: 100%;
@@ -197,11 +192,11 @@ main {
 
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 50%;
   margin: 20px auto;
 }
 
-table,
+table, 
 tr,
 td,
 th {
@@ -209,8 +204,7 @@ th {
   padding: 10px;
 }
 
-th,
-td {
+th, td {
   padding: 12px;
   vertical-align: top;
   text-align: center;
@@ -219,11 +213,10 @@ td {
 th {
   background-color: pink;
   text-align: center;
-  width: 10%;
 }
 
 tr:hover {
-  background-color: rgba(253, 227, 231, 0.734);
+background-color: rgba(253, 227, 231, 0.734);
 }
 
 /*ajuste para que las imagenes y los videos dentro de la tabla no se rompan*/
@@ -232,9 +225,9 @@ td img {
   margin: 0 auto;
 }
 
-td iframe {
+td iframe { 
   width: 100%;
-  height: 394px;
+  height: auto; /*permite que el alto crezca prporcionalmente*/
   border: none;
 }
 
@@ -265,7 +258,7 @@ main {
 
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 50%;
   margin: 20px auto;
 }
 
@@ -274,14 +267,13 @@ tr,
 td,
 th {
   border: solid rgb(234, 160, 160) 2px;
-  padding: 10px;
+padding: 10px;
 }
 
-th,
-td {
-  padding: 12px;
-  vertical-align: top;
-  text-align: center;
+th, td {
+padding: 12px;
+vertical-align: top;
+text-align: center;
 }
 
 th {
@@ -301,7 +293,7 @@ td img {
 
 td iframe {
   width: 100%;
-  height: auto;
+  height: auto; /*permite que el alto crezca prporcionalmente*/
   border: none;
 }
 
@@ -322,8 +314,8 @@ h3 {
 
 /* pagina Libros*/
 #formulario {
-  width: 450px;
-  height: 500px;
+  width: 450px ;
+  height: 500px ;
   float: left;
   background-color: rgb(231, 183, 211);
   padding: 25px;
@@ -359,11 +351,11 @@ h3 {
   padding: 15px 10px;
   font-weight: bold;
   font-size: 14px;
-  /*columna derecha: se convierte en otro grild para organizar el contenido interno*/
+/*columna derecha: se convierte en otro grild para organizar el contenido interno*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-  /* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
+/* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
   grid-column: span 2;
   padding: 10px;
   font-weight: bold;
@@ -374,9 +366,8 @@ h3 {
 
 /* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
 .foto {
-  min-height: 120px;
-  /* espacio para la imagen*/
-  padding: 35px 10px 10px 10px;
+  min-height: 120px; /* espacio para la imagen*/
+  padding: 35px 10px 10px 10px ;
   font-size: 11px;
   border-bottom: 2px solid #000;
 }
@@ -387,21 +378,20 @@ h3 {
 }
 
 /*datos de cookies*/
-.cookie .foto img {
-  width: 80%;
-  height: 420px;
+.cookie .foto img{
+width: 80%;
+height: 420px;
 }
-
-.cookie section iframe {
+.cookie section iframe{
   width: 100%;
   height: 400px;
-}
+  }
 
-.cookies {
-  margin-bottom: 5px;
-}
-
-/*inicio de tortasyc*/
+  .cookies {
+    margin-bottom: 5px;
+  }
+ 
+  /*inicio de tortasyc*/ 
 /* contenedor principal: divide el disñeo en dos columnas*/
 
 .tortas {
@@ -409,7 +399,6 @@ h3 {
   grid-template-columns: 1fr 3fr;
   border: 2px solid #000;
   width: 100%;
-  height: auto;
 }
 
 /* columna izquierda: tortas ocupara todo el alto disponible*/
@@ -418,20 +407,22 @@ h3 {
   padding: 15px 10px;
   font-weight: bold;
   font-size: 14px;
-  /*columna derecha: se convierte en otro grild para organizar el contenido interno*/
+/*columna derecha: se convierte en otro grild para organizar el contenido interno*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*divido en 2 columnas para la foto y el video*/
-  /* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
+/* el titulo "chocotorta" y "bizcochuelo" ocupa las dos columnas*/
   grid-column: span 2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
   border-bottom: 2px solid #000;
 }
 
 /* la foto y el video se acomodan una al lado de la otra automaticamente (50% cada una) */
 .foto {
-  min-height: 120px;
-  /* espacio para la imagen*/
-  padding: 35px 10px 10px 10px;
+  min-height: 120px; /* espacio para la imagen*/
+  padding: 35px 10px 10px 10px ;
   font-size: 11px;
   border-bottom: 2px solid #000;
 }
@@ -439,18 +430,18 @@ h3 {
 /* borde vertical divisor solo en la primera foto */
 .foto:nth-of-type(odd) {
   border-right: 2px solid #000;
-} 
+}
 
 /*datos de tortas*/
 
-.tortas section iframe {
+.tortas section iframe{
   width: 100%;
   height: 450px;
-}
+  }
 
-.tortas .img {
-  height: auto;
-  width: 50%;
+.tortas .img{
+width: 50%;
+height: 450px;
 }
 
 /*fin de main*/
@@ -462,8 +453,8 @@ nav {
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
-  border-bottom: solid 1px #F88379;
-  background-color: #FFF0F5;
+  border-bottom: solid 1px #aaa;
+  background-color: #eee;
 }
 
 nav a {
@@ -471,10 +462,10 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px #D8A7B1;
+  border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #9E3B63;
+  color: #555;
 }
 
 nav a[aria-current='page'] {
@@ -484,7 +475,7 @@ nav a[aria-current='page'] {
 
 .activo {
   /*border-bottom: #555 solid 3px;*/
-  box-shadow: 5px 4px #FF91AF;
+  box-shadow: 5px 4px rgb(253, 133, 191);
 }
 
 nav a:hover {
@@ -499,7 +490,6 @@ nav a:hover {
 #presentacion {
   height: 600px;
 }
-
 iframe {
   display: block;
   width: 40%;
